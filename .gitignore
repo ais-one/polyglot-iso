@@ -5,6 +5,7 @@ node_modules
 npm-debug.log
 build/*
 !build/polyglot-iso.js
+.nyc_output
 
 # Only apps should have lockfiles
 npm-shrinkwrap.json

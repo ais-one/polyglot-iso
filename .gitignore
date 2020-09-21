@@ -1,0 +1,12 @@
+# gitignore
+
+.DS_Store
+node_modules
+npm-debug.log
+build/*
+!build/polyglot-iso.js
+
+# Only apps should have lockfiles
+npm-shrinkwrap.json
+package-lock.json
+yarn.lock

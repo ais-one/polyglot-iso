@@ -4,13 +4,14 @@
   "description": "Isomorphic i18n. ES Module, Common JS and standalone JS builds. Zero dependency. Based on node-polyglot.",
   "main": "dist/polyglot-iso.cjs.js",
   "module": "dist/polyglot-iso.esm.js",
+  "esm": { "cjs": true },
   "scripts": {
     "dev": "rollup -m -c",
     "build": "rimraf build && rollup -m -c --environment NODE_ENV:production",
+    "lint": "eslint *.js test/*.js",
+    "tests-only": "mocha",
     "pretest": "npm run --silent lint",
     "test": "npm run --silent tests-only",
-    "tests-only": "mocha test/*.js --reporter spec --require esm --exit",
-    "lint": "eslint *.js test/*.js",
     "coverage": "nyc npm run test",
     "semantic-release": "semantic-release"
   },

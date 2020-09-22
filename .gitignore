@@ -3,9 +3,12 @@
 .DS_Store
 node_modules
 npm-debug.log
+
 build/*
 !build/polyglot-iso.js
+
 .nyc_output
+coverage
 
 # Only apps should have lockfiles
 npm-shrinkwrap.json

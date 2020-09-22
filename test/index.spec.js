@@ -1,7 +1,8 @@
-'use strict';
-
 import Polyglot from '../lib/index.js';
 import { expect } from 'chai';
+
+// const Polyglot = require('../build/polyglot-iso.cjs.js');
+// const { expect } = require('chai');
 
 describe('t', function () {
   var phrases = {

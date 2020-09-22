@@ -1,11 +1,17 @@
 .github
 node_modules
-.nyc_output
+
 lib
 test
 static
 
+.nyc_output
+coverage
+
+rollup.config.js
+nyc.config.js
+.eslintrc
+
 .gitignore
 .npmignore
-rollup.config.js
 .vscode

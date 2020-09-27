@@ -9,7 +9,6 @@ module.exports = {
   "watch-files": [
     "lib/index.js",
     // "test/*.js"
-    // "lib/test.js",
     // "test/**/*.js"
   ],
   // diff: true,
